@@ -1,0 +1,9 @@
+import discord
+
+client = discord.Client()
+
+@client.event
+async def on_ready():
+    print('Logged in as {0.user}'.format(client))
+
+client.run(MTA5NTY2OTk1Nzc3NTMzMTQyOQ.Gvb7Rq.CeYga25nem34u_xGNgKZiS34mUG7D71pNTQj40)
